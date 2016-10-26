@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/divider"
+        android:layout_alignParentTop="true">
+        
+    </android.support.v4.view.ViewPager>
+
+	<View
+	    android:id="@+id/divider"
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:layout_above="@+id/rg_main_control"
+	    android:background="#cccccc"
+	    android:visibility="gone" />
+
+    <RadioGroup
+        android:visibility="gone"
+        android:id="@+id/rg_main_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal"
+         >
+
+        <RadioButton
+            android:id="@+id/rb_main_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textColor="@drawable/home_color_selector"
+            android:drawableTop="@drawable/home_selector"
+            android:text="@string/shouye" />
+
+        <RadioButton
+            android:id="@+id/rb_main_log"
+            android:textSize="14sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/log_selector"
+            android:textColor="@drawable/log_color_selector"
+            android:text="@string/rizhi" />
+
+        <RadioButton
+            android:id="@+id/rb_main_situation"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/situation_selector"
+            android:textColor="@drawable/situation_color_selector"
+            android:text="@string/zaiqing" />
+
+        <RadioButton
+            android:id="@+id/rb_main_map"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/map_selector"
+            android:textColor="@drawable/map_color_selector"
+            android:textSize="14sp"
+            android:text="@string/ditu" />
+
+    </RadioGroup>
+
+</RelativeLayout>

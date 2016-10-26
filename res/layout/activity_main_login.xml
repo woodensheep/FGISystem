@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:paddingTop="35dp" >
+        
+        <RelativeLayout
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            
+            <TextView
+                android:id="@+id/tv_roletype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/tv_roletype"
+                android:textColor="@color/gray1"
+                android:textSize="16sp" />
+            
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tv_roletype"
+                android:text="@string/tv_type"
+                android:textColor="@color/gray1" 
+                android:textSize="16sp"/>
+            
+            <Button
+                android:id="@+id/btn_selectRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:text="@string/btn_selectrole"
+                android:textColor="#1466b8"
+                android:textSize="16sp" />
+        </RelativeLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/shurukuang"
+            android:orientation="horizontal" >
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/user" />
+            
+            <EditText
+	            android:id="@+id/et_login_user"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:layout_marginLeft="10dp"
+	            android:background="@null"
+	            android:hint="@string/tv_phone"
+	            android:inputType="phone"
+	            android:textSize="16sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shurukuang"
+            android:orientation="horizontal" >
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/pswd" />
+            
+            <EditText
+	            android:id="@+id/et_login_pswd"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:background="@null"
+	            android:layout_marginLeft="10dp"
+	            android:hint="@string/tv_pswd"
+	            android:inputType="textPassword"
+	            android:textSize="16sp" />
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/top2"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        
+    </LinearLayout>
+
+</LinearLayout>

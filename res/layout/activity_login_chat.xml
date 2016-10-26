@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.fubangty.audiovideochat.LoginActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="@string/phonenum"
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_login_mobile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:inputType="phone"
+            android:textSize="20sp" >
+        </EditText>
+    </LinearLayout>
+    
+	<ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@drawable/fengexian"
+	    android:layout_marginTop="5dp" />
+	
+    <Button
+        android:id="@+id/btn_login_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/denglu_press_selector"
+        android:text="@string/login"
+        android:textColor="#575757"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="@string/register" />
+
+</LinearLayout>

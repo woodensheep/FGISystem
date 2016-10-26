@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array name="area">
+		<item>请选择地区</item>
+		<item>万州区</item>
+		<item>万盛区</item>
+		<item>双桥区</item>
+		<item>渝北区</item>
+		<item>巴南区</item>
+		<item>黔江区</item>
+		<item>长寿区</item>
+		<item>江县</item>
+		<item>潼南县</item>
+		<item>铜梁县</item>
+		<item>大足县</item>
+		<item>涪陵区</item>
+		<item>荣昌县</item>
+		<item>璧山县</item>
+		<item>梁平县</item>
+		<item>城口县</item>
+		<item>丰都县</item>
+		<item>垫江县</item>
+		<item>忠县</item>
+		<item>开县</item>
+		<item>云阳县</item>
+		<item>渝中区</item>
+		<item>奉节县</item>
+		<item>巫山县</item>
+		<item>巫溪县</item>
+		<item>奉节县</item>
+		<item>石柱土家族自治县</item>
+		<item>秀山土家族苗族自治县</item>
+		<item>彭水苗族土家族自治县</item>
+		<item>江津区</item>
+		<item>永川区</item>
+		<item>大渡口区</item>
+		<item>南川区</item>
+		<item>江北区</item>
+		<item>沙坪坝区</item>
+		<item>南岸区</item>
+		<item>北碚区</item>
+		<item>合川区</item>
+	</string-array>
+	
+	<string-array name="towns">
+		<item>请选择地区</item>
+		<item>高笋塘</item>
+		<item>五桥区</item>
+		<item>九池</item>
+	</string-array>
+	
+	<string-array name="distype">
+		<item>滑坡</item>
+		<item>崩塌</item>
+		<item>泥石流</item>
+		<item>不稳定斜坡</item>
+		<item>地面塌陷</item>
+		<item>地裂缝</item>
+		<item>地面沉降</item>
+	</string-array>
+	
+	<string-array name="factor">
+		<item>降雨</item>
+		<item>地震</item>
+		<item>库水位</item>
+		<item>工程活动</item>
+	</string-array>
+	
+	
+	<!-- 应急会商 -->
+	<declare-styleable name="TopBar">
+		<!-- 文字 -->
+		<attr name="leftText" format="string" />
+		<attr name="rightText" format="string" />
+		<attr name="titleText" format="string" />
+		<!-- 文字颜色 -->
+		<attr name="leftTextColor" format="color" />
+		<attr name="rightTextColor" format="color" />
+		<attr name="titleTextColor" format="color" />
+		<!-- 文字大小 -->
+		<attr name="titleTextSize" format="dimension" />
+		<attr name="leftTextSize" format="dimension" />
+		<attr name="rightTextSize" format="dimension" />
+		<!-- 背景色 -->
+		<attr name="leftBackground" format="reference|color" />
+		<attr name="rightBackground" format="reference|color" />
+	</declare-styleable>
+</resources>

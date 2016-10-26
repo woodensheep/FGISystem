@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 群测群防列表适配器 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal" 
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="5dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+
+        <ImageView
+            android:id="@+id/pic_camera"
+            android:layout_width="64.0dip"
+            android:layout_height="64.0dip"
+            android:background="#C4D8F3" />
+
+        <ImageView
+            android:id="@+id/pic_macro"
+            android:layout_width="42.0dip"
+            android:layout_height="42.0dip"
+            android:background="@drawable/ic_launcher"
+            android:visibility="gone" />
+    </FrameLayout>
+    <!-- name & weibo -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/macro_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:id="@+id/myRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- 第一个RadioButton -->
+
+            <RadioButton
+                android:id="@+id/macro_v1"
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"  
+                android:button="@null" 
+                android:drawableRight="@drawable/radio_item" 
+                android:text="@string/macro_r1"
+                android:textColor="#000000" />
+            <!-- 第二个RadioButton -->
+
+            <RadioButton
+                android:id="@+id/macro_v2"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@null" 
+                android:drawableRight="@drawable/radio_item" 
+                android:checked="true"
+                android:text="@string/macro_r2"
+                android:textColor="#000000" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/macro_else"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_edittext"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/camre" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

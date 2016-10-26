@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 树状菜单 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F4F7"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/menu_titlebar"
+        layout="@layout/topbar" />
+    <!--
+     	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="灾害点监测"
+	    android:gravity="center"
+	    android:textSize="25sp"
+	    />
+    -->
+
+    <ExpandableListView
+        android:id="@+id/ExpandableListView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:background="#00F4F4F4"
+        android:cacheColorHint="#00000000" >
+    </ExpandableListView>
+
+</LinearLayout>

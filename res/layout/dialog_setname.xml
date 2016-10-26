@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layou2"
+            style="@style/Dialog_LinearLayout" >
+
+            <TextView
+                style="@style/Dialog_TextView"
+                android:text="@string/setphone"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/dialog_phone"
+                style="@style/Dialog_EditText"
+                android:background="@null"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/fengexian" />
+
+        <LinearLayout style="@style/Dialog_LinearLayout" >
+
+            <TextView
+                style="@style/Dialog_TextView"
+                android:text="@string/code"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/et_code"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_register_getcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/yanzhengma"
+                android:text="@string/get"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/fengexian" />
+
+        <Button
+            android:id="@+id/btn_dialog_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/size_dp2"
+            android:layout_marginLeft="@dimen/size_dp5"
+            android:layout_marginRight="@dimen/size_dp5"
+            android:layout_marginTop="@dimen/size_dp2"
+            android:background="@drawable/zhuce_press_selector2"
+            android:text="@string/register"
+            android:textColor="#595959"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

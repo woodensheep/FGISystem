@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- #29bfa5 -->
+    <color name="title_blue">#4883cd</color>
+    <color name="unpressed">#575757</color>
+    <color name="report_pressed">#29bfff</color>
+    <color name="report_unpressed">#575757</color>
+    <color name="white">#ffffff</color>
+    <color name="greylow">#dddddd</color>
+    <color name="orange">#ee6911</color>
+    <color name="grey">#666666</color>
+    <color name="login_btn_pressed">#29ffA5</color>
+    <color name="nocolor">#00FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="white1">#FFFFFF</color>
+    
+    
+    <color name="dark_grey">#282828</color>
+    <color name="trans_dark_grey">#80282828</color>
+    <color name="trans_white">#20ffffff</color>
+    <color name="trans">#00000000</color>
+    <color name="blue">#cc33b5e5</color>
+    
+    <!-- 蓝色 -->
+    <color name="blue1">#6699ff</color>
+     <!-- 带点透明度蓝色 -->
+    <color name="blue2">#5B6699ff</color>
+    <!-- 白色 -->
+	  <color name="white3">#8aFFFFFF</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+
+    <!-- 灰色 -->
+    <color name="gray1">#808080</color>
+    <color name="gray3">#c6c6c6</color>
+    <color name="gray4">#EEEEEE</color>
+    <!-- 浅灰色 -->
+    <color name="gray2">#BBBFC6</color>
+    <!-- 半透明灰色  -->
+    <color name="gray5">#88000000</color>
+    <color name="gray6">#CDC1C5</color>
+
+    <!-- 浅红色 -->
+    <color name="red1">#FF43FF</color>
+     <!-- 整个title的颜色 -->
+    <color name="titlecolor">#29BFA5</color>
+    
+    <!-- 上传图片添加的颜色 -->
+    <color name="none_color">#00000000</color>
+ 	<color name="albumback">#E1E0DE</color>
+ 	<color name="plugin_camera_black">#000000</color>
+ 	<!-- 蓝色 -->
+    <color name="blue3">#29BFA5</color>
+
+</resources>

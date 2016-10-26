@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	
+    <com.baidu.mapapi.MapView
+        android:id="@+id/mapsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true" />
+	<TableLayout
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+    >
+    <TableRow>
+    <ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/small"
+		android:src="@drawable/small_state"
+		/>
+    <ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/big"
+		android:src="@drawable/big_state"
+		/>
+	</TableRow>
+	</TableLayout> 
+	<ImageView
+		android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:src="@drawable/close_state"
+		android:id="@+id/close"
+	></ImageView>
+	<ToggleButton
+		android:id="@+id/map_change"
+		android:textOn="卫星地图"
+		android:textOff="路线地图"
+		android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_centerInParent="true"
+	></ToggleButton>
+	<ImageButton
+		android:src="@drawable/btn_me"
+		android:id="@+id/me"
+		android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+	></ImageButton>
+		
+</RelativeLayout>

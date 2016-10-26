@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">地勘助手</string>
+    <string name="myshouye">我的首页</string>
+	<string name="zhushou">驻守人员管理</string>
+    <string name="shipin">音视频通话</string>
+    <string name="qucequfang">地灾群测群防</string>
+    <string name="tv_phone">请输入手机号</string>
+    <string name="tv_phone2">输入你的手机号码</string>
+    <string name="tv_pswd">请输入密码</string>
+    <string name="tv_pswd2">输入你的密码</string>
+    <string name="denglu">用户登录</string>
+    <string name="zhuce">用户注册</string>
+    <string name="num">+86</string>
+    <string name="zhuce_hint">为了安全，我们会向你的手机发送验证码</string>
+    <string name="tv_yzm">验证码：</string>
+    <string name="tv_roletype">当前用户类型：</string>
+    <string name="tv_type">无</string>
+    <string name="btn_selectrole">切换</string>
+    
+    
+    <string name="map_report">上传</string>
+    <string name="inside_job">内勤</string>
+    <string name="meeting">开会</string>
+    <string name="scene">出现场</string>
+    <string name="action_settings">Settings</string>
+    <string name="worksi">_日_点_分，__乡镇(街道)__村组(居委会)发生1起(滑坡、崩塌、泥石流)灾情(险情)，为自然因素(人为活动，注册具体原因)诱发，是(不是)原排查出的群测群防点(专业监测点)，属(不属)三峡库区。地质灾害总体积--立方米，灾害(险情)级别为(特大型、大型、中型、小型)，未造成人员伤亡(造成了_人死亡，_受伤)。灾情(险情)发生后，我们做了__(应急调查排查、加强监测)工作，国土、乡镇(街道)等部门采取了__(加强巡查、紧急撤离设立警戒线等)措施，目前已紧急撤离了_人。</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tool">ToolActivity</string>
+    <string name="shouye">首页</string>
+    <string name="rizhi">日志</string>
+    <string name="zaiqing">灾情</string>
+    <string name="ditu">地图</string>
+    <string name="home_title">驻守人员管理系统</string>
+    <string name="log_title">工作日志</string>
+    <string name="weekly_title">工作周报</string>
+    <string name="log_title_report">填报</string>
+    <string name="log_rb_reported">已上报</string>
+    <string name="log_rb_unreport">未上报</string>
+    <string name="situation_title">灾情速报</string>
+    <string name="situation_title_report">速报</string>
+    <string name="title_tool">常用工具</string>
+    <string name="tool_norm">规范</string>
+    <string name="tool_file">文件</string>
+    <string name="tool_image">图片</string>
+    <string name="district_county">驻守区县：</string>
+    <string name="township">驻守乡镇：</string>
+    <string name="company">单&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;位：</string>
+    <string name="daily_work">日常工作\n开展情况</string>
+    <string name="emergency_handling">应急处置工作\n开展情况</string>
+    <string name="township_town">&#160;&#160;乡&#160;/&#160;镇&#160;&#160;：</string>
+    <string name="village">&#160;&#160;&#160;&#160;&#160;&#160;村&#160;&#160;&#160;&#160;&#160;&#160;：</string>
+    <string name="zu">&#160;&#160;&#160;&#160;&#160;&#160;组&#160;&#160;&#160;&#160;&#160;&#160;：</string>
+    <string name="place">地点</string>
+    <string name="disaster">灾情</string>
+    <string name="disaster_number">受灾人数：</string>
+    <string name="death_number">死亡人数：</string>
+    <string name="miss_number">失踪人数：</string>
+    <string name="injuried_number">受伤人数：</string>
+    <string name="danger">险情</string>
+    <string name="hint_danger">潜在威胁：</string>
+    <string name="family">户</string>
+    <string name="person">人</string>
+    <string name="remarks">备注：</string>
+    <string name="editremarks">\n\n\n请输入备注...\n\n\n</string>
+    <string name="edit">请输入...</string>
+    <string name="happentime">发生日期：</string>
+    <string name="disaster_report">灾情速报</string>
+    <string name="save">保存</string>
+    <string name="report">上报</string>
+    <string name="tvrecorder">姓&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;名：</string>
+    <string name="tvrecordtime">时间：</string>
+    <string name="tvworkstate">在岗情况：</string>
+    <string name="tvdailylog">工作日志：</string>
+    <string name="dailylog">工作日志</string>
+    <string name="password">请输入密码</string>
+    <string name="username">请输入电话号码</string>
+    <string name="copyright">©2016版权所有</string>
+    <string name="login_iv_text">记住我？</string>
+    <string name="login_btn_text">登  录</string>
+    <string name="login_title">驻守人员管理系统</string>
+    <string name="back">返回</string>
+    <string name="tilt">公用标题</string>
+    <string name="photo">拍照</string>
+    <string name="title_activity_fill_report">FillReportActivity</string>
+    <string name="title_activity_disaster_report">DisasterReportActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_unreportactivity">UnReportActivity</string>
+    <string name="title_activity_dailylogactivity">DailylogActivity</string>
+    <string name="title_activity_weeklyactivity">WeeklyActivity</string>
+    <string name="title_activity_memberactivity">MemberActivity</string>
+    <string name="title_activity_headerActivity">HeaderActivity</string>
+    <string name="title_activity_mapActivity">MapActivity</string>
+
+   <!-- GdimsActivity -->
+     <string name="hello">Hello World, GdimsActivity!</string>
+	<string name="macro_r1">有</string>
+	<string name="macro_r2">无</string>
+	<string name="macro_camera">照相</string>
+	<string name="none">请选择</string>
+	
+	<!-- 应急会商 -->
+    <string name="HelloTitle">应急会商</string>
+    <string name="VideoLoginTitle">视频通话中心</string>
+    <string name="SpeakLoginTitle">音频通话中心</string>
+    <string name="endCall1">结束</string>
+    <string name="main_vido">视频</string>
+    <string name="main_yuyin">语音</string>
+    <string name="finish">完成</string>
+    <string name="cancle">取消</string>
+    <string name="LoginOut">退出登录</string>
+    <string name="setip">IP　：</string>
+    <string name="iphint">IP地址</string>
+    <string name="setport">端口：</string>
+    <string name="porthint">端口号</string>
+    <string name="setname">姓名：</string>
+    <string name="namehint">真实姓名</string>
+    <string name="setphone">手机号</string>
+    <string name="phonehint">本机手机号</string>
+    <string name="phonenum">手机号码：</string>
+    <string name="register">注册</string>
+    <string name="loginhint">输入手机号</string>
+    <string name="sure">确定</string>
+    <string name="code">验证码</string>
+    <string name="login">登录</string>
+    <string name="get">获取</string>
+    
+    
+</resources>

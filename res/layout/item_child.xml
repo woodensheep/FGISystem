@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/child_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="45dip"
+        android:gravity="center_vertical"
+        android:text="姓名"
+        android:textSize="18sp" 
+        android:textColor="#534A44"/>
+
+  
+
+</RelativeLayout>
